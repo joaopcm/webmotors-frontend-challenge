@@ -21,6 +21,14 @@ export const Header = styled.div`
   ul {
     display: flex;
   }
+
+  a {
+    border: 2px solid ${colors.orange};
+    border-radius: 4px;
+    color: ${colors.orange};
+    padding: 10px 30px;
+    font-weight: bold;
+  }
 `;
 
 export const HeaderItem = styled.li`

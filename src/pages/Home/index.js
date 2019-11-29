@@ -39,7 +39,9 @@ export default function Home() {
             </HeaderItem>
           </ul>
 
-          <button type="button">Vender meu carro</button>
+          <a href="https://webmotors.com.br/vender" target="__blank">
+            Vender meu carro
+          </a>
         </Header>
         <Card>Card</Card>
       </Content>
