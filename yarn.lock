@@ -1988,14 +1988,6 @@ babel-preset-react-app@^9.0.2:
     babel-plugin-macros "2.6.1"
     babel-plugin-transform-react-remove-prop-types "0.4.24"
 
-babel-root-import@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/babel-root-import/-/babel-root-import-3.2.2.tgz#43f305790def47192c6d1061d631a94e74fa7389"
-  integrity sha1-Q/MFeQ3vRxksbRBh1jGpTnT6c4k=
-  dependencies:
-    babel "^6.1.18"
-    slash "^1.0.0"
-
 babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
@@ -2003,11 +1995,6 @@ babel-runtime@^6.26.0:
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
-
-babel@^6.1.18:
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/babel/-/babel-6.23.0.tgz#d0d1e7d803e974765beea3232d4e153c0efb90f4"
-  integrity sha1-0NHn2APpdHZb7qMjLU4VPA77kPQ=
 
 babylon@^6.18.0:
   version "6.18.0"
@@ -3632,12 +3619,11 @@ eslint-config-react-app@^5.0.2:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-import-resolver-babel-root-import@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-babel-root-import/-/eslint-import-resolver-babel-root-import-0.0.2.tgz#65a524c5a29da3c31452b3320b4611aa7b562f8b"
-  integrity sha1-ZaUkxaKdo8MUUrMyC0YRqntWL4s=
+eslint-import-resolver-babel-plugin-root-import@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-babel-plugin-root-import/-/eslint-import-resolver-babel-plugin-root-import-1.1.1.tgz#b060f1177557918389f7ed476e5b36a43854a381"
+  integrity sha512-ZZxdV9AxzL2WFVggDxZ36xodPg2+BTrkhhMf/of+BxSVh/GKLGCs17EDq5b61wqC7/oQsA2h1RtH1fV7HOUV/w==
   dependencies:
-    babel-root-import "^3.2.2"
     eslint-import-resolver-node "^0.2.1"
     json5 "^0.5.0"
 
