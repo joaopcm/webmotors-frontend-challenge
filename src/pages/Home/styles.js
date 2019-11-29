@@ -9,6 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
+  max-width: 100%;
   width: 933px;
   height: 312px;
 `;
@@ -75,4 +76,28 @@ export const HeaderItem = styled.li`
 export const Card = styled.div`
   background: ${colors.white};
   padding: 15px 30px;
+
+  label {
+    color: ${colors.dark};
+    text-transform: uppercase;
+  }
+
+  .checkbox-row {
+    label {
+      margin-right: 15px;
+      margin-left: 5px;
+    }
+
+    margin-bottom: 20px;
+  }
+
+  input#where,
+  select {
+    margin-bottom: 20px;
+    height: 38px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid ${colors.grey};
+    border-radius: 4px;
+  }
 `;

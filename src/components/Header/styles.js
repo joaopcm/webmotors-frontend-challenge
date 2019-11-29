@@ -15,8 +15,7 @@ export const Content = styled.div`
     align-items: center;
 
     img {
-      margin-right: 30px;
-      padding-right: 30px;
+      height: 35px;
     }
   }
 `;

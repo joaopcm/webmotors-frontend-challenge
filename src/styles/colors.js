@@ -6,4 +6,5 @@ export default {
   orange: '#f7823f',
   darkGrey: '#999',
   dark: '#444',
+  grey: '#ccc',
 };
