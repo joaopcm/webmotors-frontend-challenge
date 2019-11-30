@@ -22,6 +22,7 @@ export default createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialiased;
+    background: ${colors.background};
   }
 
   body, input, button {
@@ -30,6 +31,7 @@ export default createGlobalStyle`
 
   a {
     text-decoration: none;
+    color: ${colors.primary};
   }
 
   ul {

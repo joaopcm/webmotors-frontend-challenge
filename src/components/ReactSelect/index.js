@@ -70,5 +70,9 @@ ReactSelect.propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   options: PropTypes.oneOfType([PropTypes.array]).isRequired,
-  multiple: PropTypes.bool.isRequired,
+  multiple: PropTypes.bool,
+};
+
+ReactSelect.defaultProps = {
+  multiple: false,
 };
